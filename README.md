@@ -8,3 +8,19 @@ The dataset used to train the model is from `Kaggle`, which already has images a
 
 ⚠🧯 Just a word of caution. If and only if you have a powerful GPU, then only run it on your local machine and if case if you don't, run it on google colab, that's where I ran my notebook.
 
+# How to run the notebook❓
+
+If I were you, what I would do is copy this entire notebook to Google Colab and run it cell by cell from the very top to the very bottom and just study the code to see what each line is doing and if you encounter some errors, `Google` them.
+
+## Some errors that you are going to run into 😭
+
+▶ When you get to the setp of generating `TFRecords` for training and testing, you will need to change some code in the `generate_tfrecords.py` file. From line `88`, you will find these 4 lines ⬇, originally, the code would have 4's instead of all 5's, you need to change these to all 5's, and the reason for this is because in the annotations file, the actual `bounding box` coordinates are at position 5, not 4.
+
+```Python
+int(member[5][0].text),
+                     int(member[5][1].text),
+                     int(member[5][2].text),
+                     int(member[5][3].text)
+```
+
+### Apart from these, the code is straight forward, the code script takes care of everything for you, and if any errors occurs, just `Google` and see if you can find a solution for it (probably you will). Enjoy ✅🏁.
