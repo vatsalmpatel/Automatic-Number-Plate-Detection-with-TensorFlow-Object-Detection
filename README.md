@@ -18,9 +18,9 @@ If I were you, what I would do is copy this entire notebook to Google Colab and 
 
 ```Python
 int(member[5][0].text),
-                     int(member[5][1].text),
-                     int(member[5][2].text),
-                     int(member[5][3].text)
+int(member[5][1].text),
+int(member[5][2].text),
+int(member[5][3].text)
 ```
 
 ### Apart from these, the code is straight forward, the code script takes care of everything for you, and if any errors occurs, just `Google` and see if you can find a solution for it (probably you will). Enjoy ✅🏁.
