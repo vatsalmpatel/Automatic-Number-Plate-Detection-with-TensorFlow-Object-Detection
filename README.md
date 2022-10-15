@@ -26,4 +26,4 @@ int(member[5][3].text)
 ### Apart from these, the code is straight forward, the code script takes care of everything for you, and if any errors occurs, just `Google` and see if you can find a solution for it (probably you will). Enjoy ✅🏁.
 
 #
-🥏 To-Do, apply OCR to the Detected umber Plates to extract actual numbers from the image.
+🥏 To-Do, apply OCR to the Detected Number Plates to extract actual numbers from the image.
